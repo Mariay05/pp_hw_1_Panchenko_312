@@ -7,4 +7,7 @@ for i in range(randint(-1000, 1000)):
 
 def plus(a, b):
     return (a + b)
-print(plus(10,10))
+
+def minus(a, b):
+    return (a - b)
+print(plus(5, 20))
