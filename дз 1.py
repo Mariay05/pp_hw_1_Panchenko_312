@@ -1,7 +1,7 @@
-from random import randint
-for n in range(-1000, 1000):
-    n2 = bin(n)[:2]
-    if n < 0:
-        print("Неверный ввод")
+from random import*
+for i in range(randint(-1000, 1000)):
+    if i > 0:
+        i = bin(i)[2:]
     else:
-        print(n2)
+        i = 'Неверный ввод'
+print(i)
