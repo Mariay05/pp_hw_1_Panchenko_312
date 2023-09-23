@@ -4,4 +4,7 @@ for i in range(randint(-1000, 1000)):
         i = bin(i)[2:]
     else:
         i = 'Неверный ввод'
-print(i)
+
+def plus(a, b):
+    return (a + b)
+print(plus(10,10))
